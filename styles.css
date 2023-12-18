@@ -1,1 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f5; /* Light turquoise background */
+    color: #333; /* Dark text color */
+}
 
+header, section, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    color: #3498db; /* Blue header text color */
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #e74c3c; /* Reddish pink list item color */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    color: #3498db; /* Blue footer text color */
+}
+
+/* Add some hover effects for links or interactive elements */
+a:hover {
+    color: #e74c3c; /* Change color on hover to reddish pink */
+}
+
+/* Update project section background */
+.project {
+    background-color: #3498db; /* Blue project background color */
+    color: #fff; /* White text color on project section */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Update image borders */
+img {
+    border: 2px solid #3498db; /* Blue border for images */
+    border-radius: 5px;
+}
